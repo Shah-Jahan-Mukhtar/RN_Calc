@@ -1,29 +1,30 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 
-const Numbers = (props) => {
+const Operators = (props) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{props.number}</Text>
+      <Text style={styles.text}>{props.operatorName}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    width: 65,
-    height: 65,
-    backgroundColor: "#38383F",
+    width: 90,
+
+    height: 55,
+    borderRadius: 10,
+    backgroundColor: "#72727F",
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 50,
-    marginLeft: 40,
+    // marginTop: 50,
   },
   text: {
+    fontSize: 35,
     fontWeight: "bold",
     color: "white",
-    fontSize: 25,
   },
 });
 
-export default Numbers;
+export default Operators;
