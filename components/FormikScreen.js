@@ -2,15 +2,9 @@ import React from "react";
 import { Formik } from "formik";
 
 import { useTheme, useData } from "../hooks";
-import {
-  Block,
-  Button,
-  Input,
-  Image,
-  Switch,
-  Modal,
-  Text,
-} from "../components/";
+import { Block, Button, Input, Text } from "../components/";
+
+//This is Formik implementation
 
 const FormikScreen = () => {
   const { assets, colors, gradients, sizes } = useTheme();
