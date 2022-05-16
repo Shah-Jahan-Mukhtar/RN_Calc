@@ -8,6 +8,8 @@ import {
 import Numbers from "./components/Numbers";
 import Operators from "./components/Operators";
 
+// numbers can be added more
+
 const num = [
   {
     seven: 7,
