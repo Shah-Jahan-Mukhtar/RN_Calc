@@ -10,6 +10,8 @@ import Operators from "./components/Operators";
 
 // numbers can be added more
 
+// arrays should be takes less
+
 const num = [
   {
     seven: 7,
